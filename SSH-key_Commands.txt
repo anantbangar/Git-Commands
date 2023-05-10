@@ -1,0 +1,17 @@
+SSH - Secured Shell
+
+- Used for authentication
+- By setting ssh key you can connect to GitLab server without using username and password each time
+
+Step 1: Run command 
+   ssh-keygen
+
+On Mac - run command on terminal
+On Windows - use putty or git bash
+
+Step 2: Login to GitLab 
+   Gotot account ＞ Settings ＞ SSH Keys
+
+Step 3: Copy contents of C:\Users\Anant.Bangar\.ssh\id_rsa.pub  and Add Key on GitLab website
+
+Step 4: Verify SSH key is added

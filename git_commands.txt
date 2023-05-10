@@ -1,0 +1,95 @@
+Step 1: Download git from https://git-scm.com/ and install git 
+
+Step 2: Check git is installed on your system
+   
+   git --version
+
+Step 3: Run following git commands
+   
+   git config --global user.name “xxxx”
+   git config --global user.name
+
+   git config --global user.email “xxxx”
+   git config --global user.email
+
+   git config --global --list
+   git config --list
+
+Step 4: Create a demo project/folder & add to git
+   
+Step 5: Goto cmd OR terminal OR git bash 
+     CD to the location of the folder and run following commands
+   
+   git init //first initialization
+
+   git status //to check current status
+
+   git add . 	//this is for add multiple files
+
+   git add file_name //this is for add one file
+
+   git commit -m “msg” //commit with message
+
+   git push -u “url” master or //push to master using url
+
+   git push origin master or //push to master origin
+
+   git push origin main //push to main origin
+
+   git checkout -b branch_name //to create another branch
+
+   git checkout master/main //to switch to master or to main branch
+
+Step 6: Check project (files) added on GitLab
+
+Step 7: to clone from remote repository to local machine
+  
+   git clone "url" //create clone project/repository from remote to local machine
+
+Step 8: to check all log till date
+
+   git log
+
+Step 9: to undo unwanted changes done by you before commit
+
+   git checkout -- .
+
+Step 10: pull from remote repository to local repository
+
+   git pull origin master/main
+
+Step 11: fetch all
+  
+  git fetch --all
+
+Step 11: to show changes in current file
+
+   git diff
+
+Step 12: to show difference between to branches
+
+   git diff branch_name
+
+Step 13: to merge one branch into another branch
+
+   git merge branch_name
+
+Step 14: to delete(undo) and redo 
+
+   git stash //undo
+
+   git stash pop //redo
+
+
+Step 15: to create flow
+	
+   git flow init
+
+Step : to create fork of project
+
+   A fork is a copy of a project
+   Forking a pro/repo allows you to make changes without affecting the original project
+
+   step 1: Login to GitLab and goto your project
+
+   step 2: Click on Fork button
