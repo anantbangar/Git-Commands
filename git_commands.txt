@@ -93,5 +93,3 @@ Step : to create fork of project
    step 1: Login to GitLab and goto your project
 
    step 2: Click on Fork button
-
-anant bangar
